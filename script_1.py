@@ -2,7 +2,7 @@ import gspread  # Import gspread to interact with Google Sheets
 from oauth2client.service_account import ServiceAccountCredentials  # Import for authentication
 import pandas as pd  # Import pandas for data manipulation
 
-# Define the scope for accessing Google Sheets and Google Drive
+# Define the scope for accessing Google Sheets and Google Drve
 scope = ["https://spreadsheets.google.com/feeds", "https://www.googleapis.com/auth/spreadsheets",
          "https://www.googleapis.com/auth/drive.file", "https://www.googleapis.com/auth/drive"]
 
